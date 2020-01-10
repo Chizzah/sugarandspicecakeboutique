@@ -10,7 +10,7 @@
             <g-link class="text-blue-300 hover:text-pink-400" :to="menuItem.route">{{ menuItem.title }}</g-link>
           </li>
         </ul>
-        <g-link to="/getacakeinoudtshoorn"><button class="px-4 py-3 mr-4 mr-8 text-sm font-semibold text-gray-100 bg-pink-400 shadow rounded-full uppercase focus:outline-none">Get A Cake</button></g-link>
+        <g-link to="/cakesinoudtshoorn"><button class="px-4 py-3 mr-4 mr-8 text-sm font-semibold text-gray-100 bg-pink-400 shadow rounded-full uppercase focus:outline-none">Get A Cake</button></g-link>
       </div>
       <div class="px-4 py-2 md:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block focus:outline-none">
