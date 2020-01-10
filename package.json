@@ -1,0 +1,17 @@
+{
+  "name": "mayasmusiclounge",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "typeface-halant": "0.0.71",
+    "typeface-nunito": "^1.1.3"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^2.2.30"
+  }
+}
