@@ -1,10 +1,10 @@
 <template>
-  <footer class="text-gray-500 bg-blue-300 lg:rounded-lg lg:mb-16 lg:max-w-6xl lg:mx-auto">
+  <footer class="text-gray-500 bg-blue-400 lg:rounded-lg lg:mb-16 lg:max-w-6xl lg:mx-auto">
     <section class="mt-8 border-b border-gray-600 border-solid lg:ml-24 lg:mt-16">
-      <h4 class="pt-16 mx-8 mb-4 text-xs font-semibold text-pink-600 uppercase lg:text-lg">Cakes that delight</h4>
+      <h4 class="pt-16 mx-8 mb-4 text-xs text-gray-100 font-semibold uppercase lg:text-lg">Cakes that delight</h4>
       <h2 class="mx-8 mb-6 text-gray-900 text-lg lg:text-3xl">Pleasure your tastebuds at Sugar And Spice Cake Boutique in Oudtshoorn, Klein Karoo!</h2>
       <h3 class="mx-8 mr-6 text-sm text-gray-100 lg:text-xl">Make a loved one's day even more special with our luxury cakes or come and treat yourself to a decadent slice and coffee at our cafe.</h3>
-      <g-link to="/cakesinoudtshoorn"><button class="ml-8 my-8 py-4 px-8 text-gray-100 bg-pink-600 font-semibold rounded-full uppercase hover:bg-pink-400 focus:outline-none">Get A Cake</button></g-link>
+      <g-link to="/cakesinoudtshoorn"><button class="ml-8 my-8 py-4 px-8 text-gray-100 bg-pink-500 font-semibold rounded-full uppercase hover:bg-pink-400 focus:outline-none">Get A Cake</button></g-link>
     </section>
     <section class="flex flex-row items-start justify-around mb-8 text-sm text-left lg:justify-end lg:w-full lg:text-lg">
       <section class="my-8 ml-1 lg:mr-20">
@@ -46,9 +46,7 @@ export default {
       navItems: [
         { title:'Home', route:'/' },
         { title:'About', route:'/about' },
-        { title:'Cakes', route:'/cakes' },
         { title:'Blog', route:'/blog' },
-        { title:'Gallery', route:'/gallery' },
         { title:'Privacy', route:'/privacypolicy' },
       ],
       cakeItems: [

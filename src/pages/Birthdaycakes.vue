@@ -9,9 +9,9 @@
         </section>
       </section>
       <section class="flex flex-col justify-center items-center text-center">
-        <h2 class="mt-8 mb-4 text-pink-600 font-semibold uppercase">Birthday Cakes For Loved Ones</h2>
+        <h2 class="mt-8 mb-4 text-pink-500 font-semibold uppercase">Birthday Cakes For Loved Ones</h2>
         <p class="mx-4 mb-4">Make their day even more amazing with the most delicious cake in Oudtshoorn. Only at Sugar & Spice Cake Boutique!</p>
-          <g-link to="/cakesinoudtshoorn"><button id="neuButtons1" class="py-4 px-8 mb-8 text-sm text-gray-100 bg-pink-600 font-semibold rounded-full uppercase shadow hover:bg-pink-400 focus:outline-none">Get A Cake</button></g-link>
+          <g-link to="/cakesinoudtshoorn"><button id="neuButtons1" class="py-4 px-8 mb-8 text-sm text-gray-100 bg-pink-500 font-semibold rounded-full uppercase shadow hover:bg-pink-500 focus:outline-none">Get A Cake</button></g-link>
         <section class="flex flex-wrap justify-around items-center">
           <g-image class="my-8 rounded" src="../../static/img/birthdaycakes/baby-boy-cake-child-961192.webp" alt="" width="150" />
           <g-image class="my-8 rounded" src="../../static/img/birthdaycakes/baby-eating-cake-2116103 1.webp" alt="" width="150" />
@@ -23,12 +23,12 @@
           <g-image class="my-8 rounded" src="../../static/img/birthdaycakes/man-and-woman-holding-a-child-3234124.webp" alt="" width="150" />
         </section>
       </section>
-      <section class="text-blue-300 flex flex-col justify-center items-center">
-        <h2 class="mt-8 mb-4 text-pink-400 font-semibold uppercase">Also Check Out</h2>
+      <section class="text-blue-400 flex flex-col justify-center items-center">
+        <h2 class="mt-8 mb-4 text-pink-500 font-semibold uppercase">Also Check Out</h2>
         <section class="mb-8 flex justify-around items-center font-semibold">
-          <g-link class="mr-4 hover:text-pink-400" to="/dailycakes">Daily Cakes</g-link>
-          <g-link class="mr-4 hover:text-pink-400" to="/weddingcakes">Wedding Cakes</g-link>
-          <g-link class="hover:text-pink-400" to="/themedcakes">Themed Cakes</g-link>
+          <g-link class="mr-4 hover:text-pink-500" to="/dailycakes">Daily Cakes</g-link>
+          <g-link class="mr-4 hover:text-pink-500" to="/weddingcakes">Wedding Cakes</g-link>
+          <g-link class="hover:text-pink-500" to="/themedcakes">Themed Cakes</g-link>
         </section>
       </section>
     </section>

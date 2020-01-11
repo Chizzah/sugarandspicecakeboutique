@@ -9,7 +9,7 @@
         </section>
       </section>
       <section class="flex flex-col justify-center items-center text-center">
-        <h2 class="mt-8 mb-4 text-pink-600 font-semibold uppercase">Themed Cakes For All Occasions</h2>
+        <h2 class="mt-8 mb-4 text-pink-500 font-semibold uppercase">Themed Cakes For All Occasions</h2>
         <p class="mx-4 mb-4">Find your dream themed cake at Sugar & Spice Cake Boutique and wow the world from sunny Oudtshoorn.</p>
           <g-link to="/cakesinoudtshoorn"><button id="neuButtons1" class="py-4 px-8 mb-8 text-sm text-gray-100 bg-pink-600 font-semibold rounded-full uppercase shadow hover:bg-pink-400 focus:outline-none">Get A Cake</button></g-link>
         <section class="flex flex-wrap justify-around items-center">
@@ -21,7 +21,7 @@
           <g-image class="my-8 rounded" src="../../static/img/themedcakes/white-cake-pops-2274473.webp" alt="" width="150" />
         </section>
       </section>
-      <section class="text-blue-300 flex flex-col justify-center items-center">
+      <section class="text-blue-400 flex flex-col justify-center items-center">
         <h2 class="mt-8 mb-4 text-pink-400 font-semibold uppercase">Also Check Out</h2>
         <section class="mb-8 flex justify-around items-center font-semibold">
           <g-link class="mr-4 hover:text-pink-400" to="/dailycakes">Daily Cakes</g-link>

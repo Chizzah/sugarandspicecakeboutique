@@ -9,9 +9,9 @@
         </section>
       </section>
       <section class="flex flex-col justify-center items-center text-center">
-        <h2 class="mt-8 mb-4 text-pink-600 font-semibold uppercase">Daily Cakes For Any Time</h2>
+        <h2 class="mt-8 mb-4 text-pink-500 font-semibold uppercase">Daily Cakes For Any Time</h2>
         <p class="mx-4 mb-4">Our cafe in Oudtshoorn hosts amazing cakes we bake daily to pleasure your taste buds while enjoying a fresh cup of coffee. So head over to Sugar & Spice Cake Boutique and treat yourself and a loved one to pure bliss.</p>
-          <g-link to="/cakesinoudtshoorn"><button id="neuButtons1" class="py-4 px-8 mb-8 text-sm text-gray-100 bg-pink-600 font-semibold rounded-full uppercase shadow hover:bg-pink-400 focus:outline-none">Get A Cake</button></g-link>
+          <g-link to="/cakesinoudtshoorn"><button id="neuButtons1" class="py-4 px-8 mb-8 text-sm text-gray-100 bg-pink-500 font-semibold rounded-full uppercase shadow hover:bg-pink-400 focus:outline-none">Get A Cake</button></g-link>
         <section class="flex flex-wrap justify-around items-center">
           <g-image class="my-8 rounded" src="../../static/img/dailycakes/berry-blueberries-blueberry-cake-461431.webp" alt="" width="150" />
           <g-image class="my-8 rounded" src="../../static/img/dailycakes/butter-cookie-cake-toppings-with-fruits-1291712.webp" alt="" width="150" />
@@ -23,7 +23,7 @@
           <g-image class="my-8 rounded" src="../../static/img/dailycakes/white-cheesecake-on-wooden-surface-219293.webp" alt="" width="150" />
         </section>
       </section>
-      <section class="text-blue-300 flex flex-col justify-center items-center">
+      <section class="text-blue-400 flex flex-col justify-center items-center">
         <h2 class="mt-8 mb-4 text-pink-400 font-semibold uppercase">Also Check Out</h2>
         <section class="mb-8 flex justify-around items-center font-semibold">
           <g-link class="mr-4 hover:text-pink-400" to="/birthdaycakes">Birthday Cakes</g-link>

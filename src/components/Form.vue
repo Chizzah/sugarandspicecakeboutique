@@ -1,7 +1,7 @@
 <template>
   <section>
-    <section class="md:flex md:flex-col md:justify-center md:items-center">
-      <form class="md:w-128"
+    <section class="lg:flex lg:flex-col lg:justify-center lg:items-center">
+      <form class="lg:w-128"
         name="contact"
         method="post"
         v-on:submit.prevent="handleSubmit"
@@ -25,7 +25,7 @@
         <div class="message-wrapper">
           <textarea class="w-full px-6 pt-4 pb-12 mb-2 overflow-hidden bg-gray-200 rounded-lg focus:outline-none focus:shadow-outline" for="message" name="message" required v-model="formData.message" @input="textareaResize" ref="textarea" placeholder="Message"></textarea>
         </div>
-        <button class="w-full py-4 font-semibold text-gray-100 bg-pink-400 rounded-full md:text-sm focus:outline-none" type="submit">Get A Cake</button>
+        <button class="w-full py-4 font-semibold text-gray-100 bg-pink-500 rounded-full hover:bg-pink-400 lg:text-sm focus:outline-none" type="submit">Get A Cake</button>
       </form>
     </section>
   </section>

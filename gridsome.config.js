@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Sugar And Spice Boutique",
+  siteName: "Sugar And Spice Cake Boutique",
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -13,7 +13,7 @@ module.exports = {
         tailwindConfig: './tailwind.config.js',
         purgeConfig: {},
         presetEnvConfig: {},
-        shouldPurge: true,
+        shouldPurge: false,
         shouldImport: true,
         shouldTimeTravel: true,
         shouldPurgeUnusedKeyframes: true,

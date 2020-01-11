@@ -23,7 +23,7 @@ export default {
   padding: 0;
 }
 
-body {
+html {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
 }
