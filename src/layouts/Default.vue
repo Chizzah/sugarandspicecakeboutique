@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="lg:max-w-6xl lg:mx-auto">
     <Header />
     <slot/>
     <Footer />
@@ -29,7 +29,8 @@ html {
 }
 
 h1,
-h2 {
+h2,
+h5 {
   font-family: 'Halant', serif;
   font-weight: 400
 }

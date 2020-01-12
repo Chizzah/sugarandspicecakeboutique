@@ -1,6 +1,6 @@
 <template>
   <footer class="text-gray-500 bg-blue-400 lg:rounded-lg lg:mb-16 lg:max-w-6xl lg:mx-auto">
-    <section class="mt-8 border-b border-gray-600 border-solid lg:ml-24 lg:mt-16">
+    <section class="mt-8 border-b border-gray-600 border-solid sm:mx-12 lg:ml-24 lg:mt-16">
       <h4 class="pt-16 mx-8 mb-4 text-xs text-gray-100 font-semibold uppercase lg:text-lg">Cakes that delight</h4>
       <h2 class="mx-8 mb-6 text-gray-900 text-lg lg:text-3xl">Pleasure your tastebuds at Sugar And Spice Cake Boutique in Oudtshoorn, Klein Karoo!</h2>
       <h3 class="mx-8 mr-6 text-sm text-gray-100 lg:text-xl">Make a loved one's day even more special with our luxury cakes or come and treat yourself to a decadent slice and coffee at our cafe.</h3>

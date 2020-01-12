@@ -1,8 +1,8 @@
 <template>
-  <header class="lg:text-xl">
+  <header class="lg:text-xl sm:py-2">
     <nav class="flex items-center justify-between w-full py-2 text-gray-900">
       <div class="flex items-center justify-between py-2">
-        <g-link to="/"><h1 class="flex ml-4 font-semibold text-lg text-blue-400 uppercase lg:text-3xl"><span class="flex text-pink-500 mr-1">Sugar <g-image src="../../static/svg/cupcake.svg" width="25" /> Spice</span> Cake Boutique</h1></g-link>
+        <g-link to="/"><h5 class="flex items-center justify-center ml-4 font-semibold text-md text-blue-400 uppercase sm:text-xl lg:ml-8 lg:text-2xl"><span class="flex items-center justify-center text-pink-500 mr-1">Sugar <g-image class="mb-2" src="../../static/svg/cupcake.svg" width="25" /> Spice</span> Cake Boutique</h5></g-link>
       </div>
       <div class="hidden lg:uppercase lg:font-semibold lg:flex lg:text-lg lg:items-center">
         <ul class="mr-4" v-for="menuItem in menuItems" :key="menuItem.title">
@@ -10,7 +10,7 @@
             <g-link class="text-blue-400 hover:text-pink-400" :to="menuItem.route">{{ menuItem.title }}</g-link>
           </li>
         </ul>
-        <g-link to="/cakesinoudtshoorn"><button class="px-4 py-3 mr-4 mr-8 text-sm font-semibold text-gray-100 bg-pink-400 shadow rounded-full uppercase focus:outline-none">Get A Cake</button></g-link>
+        <g-link to="/cakesinoudtshoorn"><button class="px-4 py-3 mr-4 mr-8 text-sm font-semibold text-gray-100 bg-pink-400 shadow rounded-full uppercase focus:outline-none lg:text-lg">Get A Cake</button></g-link>
       </div>
       <div class="px-4 py-2 lg:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block focus:outline-none">
